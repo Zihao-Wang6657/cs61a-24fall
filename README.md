@@ -1,5 +1,5 @@
 This is for cs61a-24fall, recoring all labs, homework and projects . :)  
-这个仓库用来记录我在学习cs61a的过程。  
+这个仓库用来记录我在学习cs61a的过程,包含所有的lab，homework和project。    
 
 The code for each lab/project/homework is located in the corresponding .py file within its respective folder.  
 For example, the code for lab00 is in lab/lab00/lab00.py.  
