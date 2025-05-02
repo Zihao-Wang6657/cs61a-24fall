@@ -18,7 +18,9 @@ def race(x, y):
         minutes += 1
     return minutes
 
-# one solution: x=2,y=3
+# one solution: x=2,y=3 return wrong answer because the fiest catch-up don't happen in interger time
+# another solution : x=4,y=5 run forever because 
+# the time when the only times that the tortoise and hare have gone the same distance are not integers
 
 #Q2:Q2: Fizzbuzz
 def fizzbuzz(n):
@@ -93,6 +95,7 @@ def unique_digits(n):
     2
     """
     "*** YOUR CODE HERE ***"
+    #solution1:
     count=0
     i=0
     while n>0:
@@ -101,6 +104,14 @@ def unique_digits(n):
         if has_digit(n,i)==False:
             count+=1
     return count
+    # solution2:
+    # unique = 0
+    # while n > 0:
+    #    last = n % 10
+    #    n = n // 10
+    #    if not has_digit(n, last):
+    #        unique += 1
+    # return unique
 
 def has_digit(n, k):
     """Returns whether k is a digit in n.
@@ -119,6 +130,11 @@ def has_digit(n, k):
             return True
         n=n//10
     return False
+#UCB provided 2 different solutions in this problem, my solution is same as solution1
+#伯克利官方提供了两种思路对应的两种答案，我的解法(solution 1)与其中一个相符
+
+
+
 
 
 #Q5: Bottles
