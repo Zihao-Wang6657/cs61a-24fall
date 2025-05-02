@@ -139,6 +139,6 @@ def has_digit(n, k):
 
 #Q5: Bottles
 #solution:
-#  (1)b  (2)d  (3)c
+#  (1)d  (2)d  (3)c
 
 
