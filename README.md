@@ -6,7 +6,7 @@ For example, the code for lab00 is in lab/lab00/lab00.py. the code for project-h
 Still under update....  
 
 
-这个仓库用来记录我在学习cs61a的过程,包含所有的lab，homework,project和部份discssion    
+这个仓库用来记录我在学习cs61a的过程,包含所有的lab，homework,project和部分discssion    
 课程对应的地址如下：  
 https://insideempire.github.io/CS61A-Website-Archive/  
 课程教材的中文翻译地址如下(感谢翻译组的工作）：  
